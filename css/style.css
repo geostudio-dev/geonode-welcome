@@ -12,6 +12,7 @@
 }
 
 .content {
+  margin: 100px;
   grid-row-start: 2;
   grid-row-end: 3;
 }
@@ -23,14 +24,14 @@
 
 .content {
   display: flex;
-  
+  justify-content: start;
   align-items: center;
   flex-direction: column;
 }
 
 .navigation {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
   width: 100%;
@@ -100,8 +101,11 @@ nav a:hover {
 }
 
 /* Style the main content */
-main {
-  margin: 100px;
+
+.snit{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 /* Style the footer */
