@@ -12,7 +12,9 @@
 }
 
 .content {
-  margin: 100px;
+  margin-left: 210px;
+  margin-right: 210px;
+  margin-top: 50px;
   grid-row-start: 2;
   grid-row-end: 3;
 }
@@ -44,11 +46,13 @@ h1 {
 }
 
 .call-to-action {
+  height: 50px;
   background-color: #F21D2F;
   color: white;
+  font-size: large;
   font-weight: bold;
   border: none;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 10px 20px;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
